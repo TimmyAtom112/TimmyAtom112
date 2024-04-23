@@ -1,0 +1,144 @@
+body{
+    padding:0%;
+    margin: 0%;
+    background-color: orangered;
+}
+.logo_container{
+    width:96%;
+    height: 120px;
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.logo{
+    float: left;
+    transition: transfer 5s;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: cursive;
+    padding-top: 20px;
+}
+.logo{
+    transform: rotate(36odeg);
+}
+.matric{
+    float: right;
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.navbox{
+    overflow: hidden;
+    width:96%;
+    border-radius: 20px;
+    color:blue;
+    margin: 20px;
+    background-color: violet;
+}
+.navbox:hover{
+    color:cyan;
+}
+#nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    float: left;
+    height: 20%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 100px;
+    margin-right:50px;
+}
+
+.banner{
+  width:95%;
+  background-color: yellowgreen;
+  margin: 20px;
+  height:200px;
+  border-radius: 10px;
+}
+.column {
+    float: left;
+    width: 30%;
+    height: 20%;
+    font-size: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left; 
+    background-color: blueviolet;
+    margin:10px;
+    height: 20%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius:12px;
+    text-align:center ;
+    border: 1px solid cyan;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+}
+
+.column1{
+    float: left; 
+    background-color: red;
+    margin:10px;
+    font-size: 20px;
+    width:30%;
+    height:20%;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius:12px;
+    text-align:center ;
+    border: 2px solid cyan;
+}
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    .column1 {
+      width: 100%;
+    }
+}
+.container{
+  width:90%;
+  border-radius: 10px;
+  display: flex;
+}
+#box1 {
+  width: 45%;
+  height: 200px;
+  text-align: center;
+  border-radius: 10px;
+  border:2px solid cyan;
+  background-color: orange;
+  margin: 10px;
+  margin-left: 10px;
+}
+#box2 {
+  width: 45%;
+  text-align: center;
+  height: 200px;
+  margin: 10px;
+  background-color: orange;
+  border-radius: 10px;
+  border:2px solid cyan ;
+}
